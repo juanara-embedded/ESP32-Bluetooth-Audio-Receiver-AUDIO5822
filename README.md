@@ -1,2 +1,2 @@
-# ESP32-Bluetooth-Audio-Receiver-AUDIO5822
-Modular Bluetooth Audio Receiver for ESP32 using the TAS5822 Class-D Audio Amplifier.
+# ESP32 Bluetooth Audio Receiver using the AUDIO5822 Board
+Bluetooth audio receiver based on ESP32, designed for the AUDIO5822 mono Class-D audio amplifier board.
