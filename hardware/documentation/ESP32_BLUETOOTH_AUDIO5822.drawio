@@ -1,0 +1,261 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="91Ha0zNic7aqrtOBLl_B">
+    <mxGraphModel dx="710" dy="388" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ESP32 Bluetooth Audio Receiver" vertex="1">
+          <mxGeometry height="340" width="170" x="339" y="417" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.202;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="423.35" y="416.27" as="sourcePoint" />
+            <mxPoint x="423.34799999999996" y="296.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="GPIO25" vertex="1">
+          <mxGeometry height="30" width="40" x="463" y="623" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="GPIO26" vertex="1">
+          <mxGeometry height="30" width="40" x="463" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="GPIO22" vertex="1">
+          <mxGeometry height="30" width="40" x="463" y="699" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="GPIO19" vertex="1">
+          <mxGeometry height="30" width="40" x="457" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="GPIO18" vertex="1">
+          <mxGeometry height="30" width="40" x="457" y="496" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-11" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;rotation=90;" value="" vertex="1">
+          <mxGeometry height="20" width="100" x="479" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-12" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;rotation=90;" value="" vertex="1">
+          <mxGeometry height="20" width="100" x="539" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AUDIO5822&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="478" width="253" x="751" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-14" edge="1" parent="1" source="bbB-JynPTKRSMI_AJRVs-3" style="endArrow=none;html=1;rounded=0;exitX=1.001;exitY=0.654;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="577" y="701" as="sourcePoint" />
+            <mxPoint x="750.8899999999999" y="640.61" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-15" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=1.001;exitY=0.654;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.696;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="509" y="676" as="sourcePoint" />
+            <mxPoint x="750" y="678" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-16" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=1.001;exitY=0.654;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.008;entryY=0.925;entryDx=0;entryDy=0;entryPerimeter=0;" target="bbB-JynPTKRSMI_AJRVs-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="715" as="sourcePoint" />
+            <mxPoint x="751" y="717" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="LRCLK" vertex="1">
+          <mxGeometry height="30" width="40" x="755" y="623" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="SCLK" vertex="1">
+          <mxGeometry height="30" width="40" x="751" y="662" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="SDIN" vertex="1">
+          <mxGeometry height="30" width="40" x="751" y="701" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-20" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=0.999;exitY=0.128;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.009;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="508.83000000000004" y="459.5200000000001" as="sourcePoint" />
+            <mxPoint x="752.53" y="459.44000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-21" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=0.999;exitY=0.128;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.009;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="509" y="511.08000000000004" as="sourcePoint" />
+            <mxPoint x="752.6999999999998" y="511" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-22" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="bbB-JynPTKRSMI_AJRVs-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="529" y="460.1700000000001" as="sourcePoint" />
+            <mxPoint x="610" y="429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-25" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="593.3299999999999" y="466.39" />
+              <mxPoint x="599.78" y="459.05999999999995" />
+              <mxPoint x="596.44" y="450.1700000000001" />
+            </Array>
+            <mxPoint x="587.78" y="466.39" as="sourcePoint" />
+            <mxPoint x="589" y="448" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-26" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="588" y="510.61" as="sourcePoint" />
+            <mxPoint x="588" y="466" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="4.7kΩ" vertex="1">
+          <mxGeometry height="30" width="40" x="539" y="383" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="4.7kΩ" vertex="1">
+          <mxGeometry height="30" width="40" x="475" y="383" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="SDA" vertex="1">
+          <mxGeometry height="30" width="40" x="751" y="496" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="SCL" vertex="1">
+          <mxGeometry height="30" width="40" x="751" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="PDN" vertex="1">
+          <mxGeometry height="30" width="40" x="751" y="383" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-33" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;rotation=90;" value="" vertex="1">
+          <mxGeometry height="20" width="100" x="585" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="4.7kΩ" vertex="1">
+          <mxGeometry height="30" width="40" x="645" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-37" edge="1" parent="1" source="bbB-JynPTKRSMI_AJRVs-11" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.589;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="565" y="343" as="sourcePoint" />
+            <mxPoint x="529.3860000000001" y="296.81999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-38" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.589;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="589" y="348" as="sourcePoint" />
+            <mxPoint x="589" y="297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-39" edge="1" parent="1" source="bbB-JynPTKRSMI_AJRVs-33" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" target="bbB-JynPTKRSMI_AJRVs-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="663" y="411" as="sourcePoint" />
+            <mxPoint x="713" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="+3.3V" vertex="1">
+          <mxGeometry height="30" width="40" x="751" y="282" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="+3.3V" vertex="1">
+          <mxGeometry height="30" width="40" x="404" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-42" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=-0.027;entryY=0.431;entryDx=0;entryDy=0;entryPerimeter=0;" target="bbB-JynPTKRSMI_AJRVs-40" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="423.43000000000006" y="296.76" as="sourcePoint" />
+            <mxPoint x="595" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="GND" vertex="1">
+          <mxGeometry height="30" width="40" x="404" y="727" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-44" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.protective_earth;" value="" vertex="1">
+          <mxGeometry height="20" width="25" x="411.5" y="776" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-46" edge="1" parent="1" source="bbB-JynPTKRSMI_AJRVs-44" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="bbB-JynPTKRSMI_AJRVs-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="437" y="787" as="sourcePoint" />
+            <mxPoint x="487" y="737" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-47" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.protective_earth;" value="" vertex="1">
+          <mxGeometry height="20" width="25" x="865" y="769" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-48" edge="1" parent="1" source="bbB-JynPTKRSMI_AJRVs-47" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="bbB-JynPTKRSMI_AJRVs-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="836" y="763" as="sourcePoint" />
+            <mxPoint x="836" y="744" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="GND" vertex="1">
+          <mxGeometry height="30" width="40" x="857.5" y="724" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="+V" vertex="1">
+          <mxGeometry height="30" width="40" x="857.5" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="12V (PVDD Power Supply)" vertex="1">
+          <mxGeometry height="73" width="119" x="817.5" y="141" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-52" edge="1" parent="1" source="bbB-JynPTKRSMI_AJRVs-50" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="bbB-JynPTKRSMI_AJRVs-51" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="809" y="263" as="sourcePoint" />
+            <mxPoint x="859" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-53" edge="1" parent="1" source="bbB-JynPTKRSMI_AJRVs-51" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="827" y="167" as="sourcePoint" />
+            <mxPoint x="877.5" y="120.00000000000011" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-54" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.protective_earth;rotation=-180;" value="" vertex="1">
+          <mxGeometry height="20" width="25" x="865" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="+" vertex="1">
+          <mxGeometry height="30" width="40" x="857.5" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="GND" vertex="1">
+          <mxGeometry height="30" width="40" x="857.5" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="OUT+" vertex="1">
+          <mxGeometry height="30" width="40" x="964" y="543" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="OUT-" vertex="1">
+          <mxGeometry height="30" width="40" x="964" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SPEAKER(6Ω)" vertex="1">
+          <mxGeometry height="93" width="119" x="1032" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-61" edge="1" parent="1" source="bbB-JynPTKRSMI_AJRVs-13" style="endArrow=none;html=1;rounded=0;exitX=0.996;exitY=0.599;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.219;entryDx=0;entryDy=0;entryPerimeter=0;" target="bbB-JynPTKRSMI_AJRVs-60" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1032" y="618" as="sourcePoint" />
+            <mxPoint x="1031.76" y="559.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-62" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=0.996;exitY=0.599;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.219;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1003" y="611" as="sourcePoint" />
+            <mxPoint x="1032" y="611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="ADR/FAULT" vertex="1">
+          <mxGeometry height="30" width="40" x="948" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="SDOUT" vertex="1">
+          <mxGeometry height="30" width="40" x="948" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Leave pins unnconnected" vertex="1">
+          <mxGeometry height="93" width="119" x="1032" y="299.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-66" edge="1" parent="1" source="bbB-JynPTKRSMI_AJRVs-13" style="endArrow=none;html=1;rounded=0;exitX=0.999;exitY=0.126;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.002;entryY=0.354;entryDx=0;entryDy=0;entryPerimeter=0;" target="bbB-JynPTKRSMI_AJRVs-65" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1009" y="388" as="sourcePoint" />
+            <mxPoint x="1059" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-67" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=0.999;exitY=0.126;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.002;entryY=0.354;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1004" y="364" as="sourcePoint" />
+            <mxPoint x="1032" y="364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Bluetooth Audio Source" vertex="1">
+          <mxGeometry height="190" width="150" x="133" y="455.4" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-71" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.bluetooth;pointerEvents=1" value="" vertex="1">
+          <mxGeometry height="28.799999999999997" width="15" x="200.5" y="589.4" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-72" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.bluetooth;pointerEvents=1" value="" vertex="1">
+          <mxGeometry height="28.799999999999997" width="15" x="416.5" y="536" as="geometry" />
+        </mxCell>
+        <mxCell id="bbB-JynPTKRSMI_AJRVs-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ESP32-Bluetooth-Audio-Receiver-AUDIO5822&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;System block diagram&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Designed by: Juan Antonio Rodríguez Alcaraz&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Project:&amp;nbsp;https://github.com/juanara-embedded/ESP32-Bluetooth-Audio-Receiver-AUDIO5822&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="590" x="389" y="826" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
